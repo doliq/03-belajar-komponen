@@ -2,6 +2,7 @@ import Image from "next/image";
 import Profile from "./components/profile";
 import "./globals.css";
 import { Gallery } from "./components/gallery";
+import Bio from "./components/bio";
 
 
 export default function Home() {
@@ -9,9 +10,10 @@ export default function Home() {
     <main className="">
       <div>
         <center>
-          <h1>Ilmuwan Luar Biasa</h1>
+          {/* <h1>Ilmuwan Luar Biasa</h1> */}
         </center>
-          <Gallery/>
+          {/* <Gallery/> */}
+          <Bio/>
       </div>
   </main>
 );
