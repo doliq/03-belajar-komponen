@@ -5,6 +5,7 @@ import { Gallery } from "./components/gallery";
 import Bio from "./components/bio";
 import TodoList from "./components/todolist";
 import MyGallery from "./components/mygallery";
+import MyProfileV2 from "./components/myprofilev2";
 
 
 // export default function Home() {
@@ -37,7 +38,7 @@ export default function Home() {
   return (
     <main className="">
       <div>
-          <MyGallery/>
+          <MyProfileV2/>
       </div>
   </main>
 );
