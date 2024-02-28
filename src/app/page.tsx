@@ -4,6 +4,7 @@ import "./globals.css";
 import { Gallery } from "./components/gallery";
 import Bio from "./components/bio";
 import TodoList from "./components/todolist";
+import MyGallery from "./components/mygallery";
 
 
 // export default function Home() {
@@ -20,14 +21,24 @@ import TodoList from "./components/todolist";
 // );
 // }
 
+// export default function Home() {
+//   return (
+//     <section>
+//       <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
+//       <hr />
+//       <Gallery />
+//       <hr />
+//       <TodoList />
+//     </section>
+//   );
+// }
+
 export default function Home() {
   return (
-    <section>
-      <h1 className="font-semibold text-slate-900 truncate pr-20 text-center">Ilmuwan yang luar biasa</h1>
-      <hr />
-      <Gallery />
-      <hr />
-      <TodoList />
-    </section>
-  );
+    <main className="">
+      <div>
+          <MyGallery/>
+      </div>
+  </main>
+);
 }

@@ -43,3 +43,39 @@ Jangan lupa push dengan pesan commit: "W03: Jawaban soal 3".
 ### Jawaban Soal 3
 
 ![Screenshot](assets-report/03.png)
+
+Karena menetapkan kelas pada elemen HTML di react butuh className. Lalu menambahkan tag penutup dan meletakkan lokasi penutup tag dengan benar.
+
+### Soal 4
+
+Kode di atas masih terdapat error, silakan diperbaiki.
+
+Jangan lupa push dengan pesan commit: "W03: Jawaban soal 4".
+
+### Jawaban Soal 3
+
+![Screenshot](assets-report/03.png)
+
+### Soal 4
+
+Kode di atas masih terdapat error, silakan diperbaiki.
+
+Jangan lupa push dengan pesan commit: "W03: Jawaban soal 4".
+
+### Soal 5
+
+Buka file src/components/todolist.tsx lakukan ekstrak URL gambar ke dalam objek person.
+
+Capture hasilnya dan buatlah laporan di README.md. Apakah ada perbedaan pada tampilan web saat ini?
+
+Jangan lupa push dengan pesan commit: "W03: Jawaban soal 5".
+
+## Soal 6
+
+Perbaiki kode tersebut pada bagian atribut src. Kode lainnya dapat Anda sesuaikan dari jawaban soal sebelumnya. Capture hasilnya dan buatlah laporan di README.md. Jelaskan apa yang telah Anda pelajari dan bagaimana tampilannya saat ini?
+
+Jangan lupa push dengan pesan commit: "W03: Jawaban soal 6".
+
+Catatan:
+
+Untuk memeriksa apakah perbaikan Anda berhasil, coba ubah nilai dari imageSize menjadi 'b'. Gambar harus menyesuaikan ukuran setelah diubah.
