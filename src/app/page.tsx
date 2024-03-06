@@ -66,6 +66,30 @@ import MyProfile from "./components/myprofile";
 //   );
 // }
 
+// // no 5
+// export default function Home() {
+//   return (
+//     <section>
+//       <h1 className="titleFont">Ilmuwan yang luar biasa</h1>
+//       <hr />
+//       <Gallery />
+//       <hr />
+//       <TodoList />
+//     </section>
+//   );
+// }
+
+// // no 6
+// export default function Home() {
+//   return (
+//     <main className="myGallery">
+//       <div>
+//           <TodoList/>
+//       </div>
+//   </main>
+// );
+// }
+
 // //no 7 
 // export default function Home() {
 //   return (
@@ -88,13 +112,13 @@ import MyProfile from "./components/myprofile";
 // );
 // }
 
-//no 9
-export default function Home() {
-  return (
-    <main className="myGallery">
-      <div>
-          <MyProfileV2/>
-      </div>
-  </main>
-);
-}
+// //no 9
+// export default function Home() {
+//   return (
+//     <main className="myGallery">
+//       <div>
+//           <MyProfileV2/>
+//       </div>
+//   </main>
+// );
+// }
