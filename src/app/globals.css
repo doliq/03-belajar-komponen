@@ -1,40 +1,32 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+    to bottom,
+    transparent,
+  );
+  background-color: black;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.titleFont {
+  color: white;
+  text-align: center;
 }
 
-.imageContainer {
-  margin-right: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+.bioText {
+  color: white;
+}
+
+.myGallery {
+  color: white;
+}
+
+.myProfile {
+  color: white;
+}
+
+.tentang {
+  color: white;
+}
+
+h1{
+  color: white;
 }
