@@ -19,6 +19,7 @@ Jangan lupa push dengan pesan commit: "W03: Jawaban soal 1".
 ![Screenshot](assets-report/01.png)
 
 ![Screenshot](assets-report/02.png)
+
 Saya menambahkan domains asal gambar pada next.config.mjs. Serta merubah/mengatur posisi gambar dengan menggunakan css yang di inputkan pada containerImage.
 
 ### Soal 2
